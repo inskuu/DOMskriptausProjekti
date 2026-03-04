@@ -38,6 +38,17 @@
     margin-bottom: 25px;
 }
 
+
+.rivi.virhe {
+    border: 3px solid black;
+    border-radius: 30px;
+}
+
+#inputLaatikko.virhe::placeholder {
+    color:red;
+    font-weight: bold;
+}
+
 input {
     flex: 1;
     border: none;
@@ -52,7 +63,7 @@ button {
     outline: none;
     padding: 16px 50px;
     background: purple;
-    color: whitesmoke;
+    color: lightpink;
     font-size: 16px;
     font-weight: bold;
     cursor: pointer;
