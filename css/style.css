@@ -133,7 +133,7 @@ input {
 .lappu .poistaNappi {
     position: absolute;
     bottom: 0px;
-    right: 10px;
+    right: 15px;
     border: 1px solid black;
     border-radius: 5px;
     cursor: pointer;

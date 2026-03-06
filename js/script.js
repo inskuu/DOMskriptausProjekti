@@ -20,6 +20,16 @@ function satunnainenVari() {
   return pastelliVarit[i];
 }
 
+//Virheviesti merkkimäärän loppuessa
+inputHarjoitus.addEventListener("input", merkitTaynna);
+function merkitTaynna() {
+    const max = this.maxLength;
+    const pituus = this.value.length;
+    if (pituus === max) {
+        alert("Merkkiraja täynnä. Maksimi on " + max + " merkkiä.")
+    }
+}
+
 lomake.addEventListener("submit", function (e) {
   e.preventDefault();
 
@@ -35,6 +45,26 @@ if (km === "") {
     naytaVirhe();
     return;
 }
+
+//Lisää virhe
+function naytaVirhe() {
+        inputHarjoitus.placeholder = "Kirjoita harjoitus ennen lisäämistä";
+        inputHarjoitus.classList.add("virhe");
+        inputMatka.placeholder = "Kirjoita kilometrit ennen lisäämistä";
+        inputMatka.classList.add("virhe");        
+}
+
+//Poista virhe
+    function poistaVirhe() {
+        inputHarjoitus.classList.remove("virhe");
+        inputMatka.classList.remove("virhe");
+}
+
+inputHarjoitus.addEventListener("input", function(e) {
+    if (e.target.value.length > 0) {
+        poistaVirhe();
+    }
+});
 
 //Luo uusi lappu
     const uusiLappu = document.createElement("div");
@@ -70,27 +100,7 @@ postIt.appendChild(uusiLappu);
     inputMatka.value = "";
     poistaVirhe();   
 });
-  
-//Lisää virhe
-function naytaVirhe() {
-        inputHarjoitus.placeholder = "Kirjoita harjoitus ennen lisäämistä";
-        inputHarjoitus.classList.add("virhe");
-        inputMatka.placeholder = "Kirjoita kilometrit ennen lisäämistä";
-        inputMatka.classList.add("virhe");        
-}
-
-//Poista virhe
-    function poistaVirhe() {
-        inputHarjoitus.classList.remove("virhe");
-        inputMatka.classList.remove("virhe");
-}
-
-inputHarjoitus.addEventListener("input", function(e) {
-    if (e.target.value.length > 0) {
-        poistaVirhe();
-    }
-});
-
+ 
 
 
 
