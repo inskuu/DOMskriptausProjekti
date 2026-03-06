@@ -1,12 +1,9 @@
-# Projektin nimi ja tekijät
-Projektin nimi ja kaikki mukana olevat tekijät. 
+# Projektin nimi
+Pyöräilusuunnitelmat
 
 ## Verkkolinkit:
 Pääset julkaistuun sovellukseen käsiksi osoitteessa [google.com](https://google.com)
 Linkki projektin videoesittelyyn [google.com](https://google.com)
-
-## Työn jakautuminen 
-Miten työmäärä jaettiin? Kuka teki mitä? Miten yhteistyö sujui?
 
 ## Oma arvio työstä ja oman osaamisen kehittymisestä
 Mielestäni onnistuin...
@@ -17,8 +14,8 @@ Epäselväksi jäi...
 Antaisin itselleni pisteitä seuraavasti: xx/yy p
 
 ## Palaute opettajalle kurssista sekä itse opetuksesta tähän saakka
-Kurssi sekä lähiopetus ovat tuntuneet... 
-Oppimistani tukisi jos...
+Kurssi on ollut mielenkiintoinen, joskin haastava. Tuntuu, että joulutauon aikana osa ohjelmoinnin perusteet kurssin asioista pääsi jo unohtumaan ja niitä on pitänyt kertailla.  
+Oppimistani tukisi jos, tunteja olisi joskus kampuksella. Esim. omatoimista projektin tekoa, mutta niin, että tarvittaessa voisi heti kysyä apua, jos tulee ongelmia.
 
 
 ## Sisällysluettelo:
@@ -33,7 +30,7 @@ Oppimistani tukisi jos...
 - [Lisenssi](#lisenssi)
 
 ## Tietoja sovelluksesta
-[Projektin nimi] on sovellus, joka ...
+Pyöräilysuunnitelmat on sovellus, jolla suunnittelen tulevia pyöräilyretkiäni. Lisään kuvauksen reitistä ja syötän kilometrit post it lapulle. Merkitsen post it lapun valmiiksi, kun reitti on ajettu tai voin myös poistaa post it lapun, jos suunnitelmat muuttuu.
 
 ## Tunnetut virheet/bugit
 Kerro jos tiedät sovelluksessa olevan jotain, mikä ei toimi tai toimii heikosti
@@ -57,8 +54,9 @@ Kirjoita lyhyet ohjeet sovelluksen käynnistämiseen ja käyttöön. Esimerkiksi
 
 ## Kiitokset
 Lista lähteistä ja esimerkeistä, joita käytit projektin aikana. Mainitse myös, jos käytit ChatGPT:tä tai muita tekoälytyökaluja koodauksen aikana ja kerro, miten ne auttoivat sinua.  
-- [John Doe](johndoe.com)  
-- [Beginners guide to BEM](link-goes-here.com)  
+- [Google Fonts](https://fonts.google.com/)  
+- [Copilot](https://copilot.microsoft.com/)  
+- [W3Schools](https://www.w3schools.com/)  
 
 ## Lisenssi
 Valitse projektille lisenssi seuraamalla tätä [opasta](https://docs.github.com/en/communities/setting-up-your-project-for-healthy-contributions/adding-a-license-to-a-repository).

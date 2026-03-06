@@ -6,6 +6,13 @@
     padding: 10px;
 }
 
+/* Fontti */
+.gloria-hallelujah-regular {
+  font-family: "Gloria Hallelujah", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
 /* Lomakepohjan määrittelyt */
 .todo-lista {
     width: 100%;
@@ -23,10 +30,11 @@
     align-items: center;
     gap: 10px;
     margin-bottom: 20px;
+    font-family: "Gloria Hallelujah";
 }
 
 .todo-lista h2 img {
-    width: 100px;
+    width: 90px;
     height: auto;
     padding-left: 250px;
 }
@@ -53,6 +61,7 @@ button {
     color: black;
     font-size: 16px;
     font-weight: bold;
+    font-family: "Gloria Hallelujah";
     cursor: pointer;
     border-radius: 20px;
 }
@@ -99,6 +108,7 @@ input {
 
 /* PostIt lapun määrittelyt */
 .lappu {
+    position: relative;
     height: 200px;
     box-sizing: border-box;
     padding: 16px;
@@ -106,8 +116,31 @@ input {
     border-radius: 10px;
     box-shadow: 0 0 15px black;
     resize: none;
+    background-color: rgb(245, 218, 222);  
+}
+
+.lappu p {
+    margin: 0;
     font-size: 25px;
-    background-color: rgb(245, 218, 222);
-    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    white-space: pre-line;
+    font-family: "Gloria Hallelujah";
+}
+
+.lappu p.tehty {
+  text-decoration: line-through black 5px;
+}
+
+.lappu .poistaNappi {
+    position: absolute;
+    bottom: 0px;
+    right: 10px;
+    border: 1px solid black;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: rgb(170, 170, 170);
+    color: black;
+    font-family: "Gloria Hallelujah";
+    padding: 5px 10px;
+
 }
 
