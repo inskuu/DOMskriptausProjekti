@@ -74,7 +74,7 @@ input {
     flex: 1;
     border: 1px solid black;
     padding: 10px;
-    font-size: 16px;
+    font-size: 16px !important;
 }
 
 #inputHarjoitus {
@@ -175,10 +175,10 @@ p {
   }
 
   #postIt {
-    max-width: 600px;
+    max-width: 500px;
     width: 90%;
     margin: 0 auto;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(auto-fill, minmax(140px, 1fr));
   }
 
   .laskurit {
