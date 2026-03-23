@@ -28,6 +28,7 @@
     color: black;
     display: flex;
     align-items: center;
+    justify-content: space-between;
     gap: 10px;
     margin-bottom: 20px;
     font-family: "Gloria Hallelujah";
@@ -36,7 +37,7 @@
 .todo-lista h2 img {
     width: 90px;
     height: auto;
-    padding-left: 250px;
+    padding-left: 0px;
 }
 
 /* Lomakkeen määrittelyt */
@@ -144,3 +145,39 @@ input {
 
 }
 
+/* Laskurien määrittelyt */
+.laskurit {
+display: flex;
+justify-content: space-between;
+align-items: center;
+width: 80%;
+max-width: 600px;
+margin: 20px auto;
+}
+
+p {
+ font-family: "Gloria Hallelujah"; 
+ font-weight: bold;  
+}
+
+
+/* Responsiivisuus */
+@media (max-width: 480px) {
+  .todo-lista {
+    margin: 40px 10px;
+    padding: 20px;
+  }
+
+  .todo-lista h2 img {
+    width: 50px;
+  }
+
+  #postIt {
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  }
+
+  .laskurit {
+    flex-direction: column;
+    gap: 10px;
+  }
+}

@@ -30,12 +30,14 @@ function merkitTaynna() {
     }
 }
 
+//Estää sivun reloadin
 lomake.addEventListener("submit", function (e) {
   e.preventDefault();
 
 const kuvaus = inputHarjoitus.value;
 const km = inputMatka.value;
 
+//Validointi
 if (kuvaus === "") {
     naytaVirhe();
     return;
@@ -70,6 +72,7 @@ inputHarjoitus.addEventListener("input", function(e) {
     const uusiLappu = document.createElement("div");
     uusiLappu.classList.add("lappu");
     uusiLappu.style.backgroundColor = satunnainenVari();
+    
 
 //Lisää teksti
 const teksti = document.createElement("p");
@@ -80,6 +83,7 @@ const teksti = document.createElement("p");
 uusiLappu.addEventListener("click", yliviivaaTehty)
 function yliviivaaTehty() {
     teksti.classList.toggle("tehty");
+    laskuri();
 }
 
 //Lisää poista nappi 
@@ -90,10 +94,12 @@ function yliviivaaTehty() {
  poistaNappi.addEventListener("click", function(e) {
     e.stopPropagation();
     uusiLappu.remove();
+    laskuri();
   });
   uusiLappu.appendChild(poistaNappi);
 
 postIt.appendChild(uusiLappu);
+laskuri();
 
 //Tyhjennä kentät
     inputHarjoitus.value = "";
@@ -101,7 +107,18 @@ postIt.appendChild(uusiLappu);
     poistaVirhe();   
 });
  
+//Laskuri
+function laskuri() {
+    const kaikki = document.querySelectorAll(".lappu");
+    const tehdyt = document.querySelectorAll(".lappu p.tehty");
+    const tekematta = kaikki.length - tehdyt.length;
 
+    document.getElementById("tehdyt").textContent =
+    "Tehdyt: " + tehdyt.length;
+
+    document.getElementById("tekematta").textContent =
+    "Tekemättä: " + tekematta;
+}
 
 
 
