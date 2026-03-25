@@ -1,36 +1,46 @@
 <!doctype html>
 <html lang="fi">
   <head>
-    <meta charset="utf-8">
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="css/style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Sigmar+One&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Gloria+Hallelujah&family=Sigmar+One&display=swap"
+      rel="stylesheet"
+    />
     <title>Kesän pyöräilyretket</title>
   </head>
   <body>
     <div class="tausta">
-        <div class="todo-lista">
-            <h2>Pyöräilysuunnitelmat <img src="kuvat/pyora2.png"></h2>
+      <div class="todo-lista">
+        <h2>Pyöräilysuunnitelmat <img src="kuvat/pyora2.png" /></h2>
 
-            <div class="lomake">
-              <form id="harjoitusForm">
-                <input type="text" id="inputHarjoitus" maxlength="20" placeholder="Lisää kuvaus reitistä"><br>
-                <input type="number" id="inputMatka" placeholder="Lisää kilometrit"><br>
-              <button type="submit" id="lisaaNappi">Lisää suunnitelma</button>  
-              </form>
-            </div>
-            <div class = "laskurit">
-           <p id="tehdyt">Tehdyt: 0</p>
-           <p id="tekematta">Tekemättä: 0</p>
-</div>
+        <div class="lomake">
+          <form id="harjoitusForm">
+            <input
+              type="text"
+              id="inputHarjoitus"
+              maxlength="20"
+              placeholder="Lisää kuvaus reitistä"
+            /><br />
+            <input
+              type="number"
+              id="inputMatka"
+              placeholder="Lisää kilometrit"
+            /><br />
+            <button type="submit" id="lisaaNappi">Lisää suunnitelma</button>
+          </form>
         </div>
-        <div id="postIt">
- 
-</div>
+        <div class="laskurit">
+          <p id="tehdyt">Tehdyt: 0</p>
+          <p id="tekematta">Tekemättä: 0</p>
+        </div>
+      </div>
+      <div id="postIt"></div>
     </div>
 
-
-<script src="js/script.js"></script>
+    <script src="js/script.js"></script>
   </body>
 </html>

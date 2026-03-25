@@ -6,13 +6,13 @@ const postIt = document.querySelector("#postIt");
 
 //Satunnainen väri
 const pastelliVarit = [
-  "#fcedb0", // vaalea keltainen
-  "#fccbdf", // vaalea pinkki
-  "#c4ebf8", // hyvin vaalea turkoosi
-  "#d3cffa", // laventeli
-  "#d1fad5", // minttu
-  "#fae4c7", // aprikoosi
-  "#cddcf8"  // haalea sininen
+  "#faedb8", 
+  "#fcc0c0", 
+  "#c4e3f8", 
+  "#d3cffa", 
+  "#d1fad5", 
+  "#fae6c7", 
+  "#cddcf8"  
 ];
 
 function satunnainenVari() {
