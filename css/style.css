@@ -74,7 +74,7 @@ input {
     flex: 1;
     border: 1px solid black;
     padding: 10px;
-    font-size: 16px !important;
+    font-size: 16px;
 }
 
 #inputHarjoitus {
@@ -113,6 +113,8 @@ input {
 .lappu {
     position: relative;
     height: 200px;
+ width: 100%;
+  max-width: 200px;
     box-sizing: border-box;
     padding: 16px;
     border: none;
@@ -164,25 +166,29 @@ p {
 
 
 /* Responsiivisuus */
-@media (max-width: 600px) {
-  .todo-lista {
-    margin: 40px 10px;
-    padding: 20px;
-  }
-
-  .todo-lista h2 img {
-    width: 50px;
-  }
-
-  #postIt {
+@media screen and (max-width: 768px) {
+ #postIt {
     max-width: 600px;
-    width: 90%;
-    margin: 0 auto;
-    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    grid-template-columns: repeat(3, 1fr);
+    justify-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+  .lappu {
+    width: 150px;
+    height: 150px;
+  }
+  
+  .lappu p {
+    font-size: 16px; 
+    word-break: break-word; 
   }
 
-  .laskurit {
-    flex-direction: column;
-    gap: 10px;
+  .lappu .poistaNappi {
+    font-size: 14px;
   }
 }
+
+
+

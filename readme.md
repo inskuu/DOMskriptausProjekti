@@ -1,5 +1,5 @@
 # Projektin nimi
-Pyöräilusuunnitelmat
+Pyöräilysuunnitelmat
 
 ## Verkkolinkit:
 Pääset julkaistuun sovellukseen käsiksi osoitteessa [google.com](https://google.com)
