@@ -2,9 +2,9 @@
 Pyöräilysuunnitelmat
 
 ## Verkkolinkit:
-Pääset julkaistuun sovellukseen käsiksi osoitteessa [netlify.com](https://domskriptausprojekti.netlify.app/?)
-Linkki GitHub repositorioon [github.com](https://github.com/inskuu/DOMskriptausProjekti.git)
-Linkki projektin videoesittelyyn [laureauas-my.sharepoint.com/](https://laureauas-my.sharepoint.com/:v:/g/personal/iik00062_laurea_fi/IQB-ezZQyS6aQJPADPPFY9MLAeYTIZR_XcuVU9bLI4KWXZw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1dEApb)
+- Pääset julkaistuun sovellukseen käsiksi osoitteessa [netlify.com](https://domskriptausprojekti.netlify.app/?)
+- Linkki GitHub repositorioon [github.com](https://github.com/inskuu/DOMskriptausProjekti.git)
+- Linkki projektin videoesittelyyn [laureauas-my.sharepoint.com/](https://laureauas-my.sharepoint.com/:v:/g/personal/iik00062_laurea_fi/IQB-ezZQyS6aQJPADPPFY9MLAeYTIZR_XcuVU9bLI4KWXZw?nav=eyJyZWZlcnJhbEluZm8iOnsicmVmZXJyYWxBcHAiOiJPbmVEcml2ZUZvckJ1c2luZXNzIiwicmVmZXJyYWxBcHBQbGF0Zm9ybSI6IldlYiIsInJlZmVycmFsTW9kZSI6InZpZXciLCJyZWZlcnJhbFZpZXciOiJNeUZpbGVzTGlua0NvcHkifX0&e=1dEApb)
 Videon ääni ilmeisesti aika hiljaisella, toivottavasti siitä kuuluu tarpeeksi. 
 
 ## Oma arvio työstä ja oman osaamisen kehittymisestä
@@ -55,7 +55,7 @@ Sovellus toimii netlify linkin (https://domskriptausprojekti.netlify.app/?) kaut
     -Pyysin tekoäly luomaan minulle sopivan kuvan/logon, jota käytin. 
 - [W3Schools](https://www.w3schools.com/) 
     -Täältä etsin tietoa aina ensimmäisten joukossa. Esim. todo listoista, random väreistä
-- [Opettajan materiaali] (https://mika-stenberg.gitbook.io/web-sovelluksia-javascriptin-avulla)
+- [Opettajan materiaali](https://mika-stenberg.gitbook.io/web-sovelluksia-javascriptin-avulla)
     - Täältä etsin tietoa myös aina ensimmäisten joukossa. Esim. elementtien lisäys ja validointi sekä elementtien etsiminen laskuria varten.
 -Lisäksi käytin paljon omaa aiempaa websivuston kehittämisen projektia, josta katsoin apuja css tyyleihin.
 
